@@ -5,6 +5,9 @@ int main(){
     for(i=input-1;i>0;i--){
         input=input*i;
     }
-    printf("%d",input);
+    if(input==0)
+        printf("1");
+    else
+        printf("%d",input);
     return 0;
 }
